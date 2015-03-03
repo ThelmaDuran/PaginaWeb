@@ -1,0 +1,39 @@
+ {% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Web..</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+	<!--link rel="stylesheet" type="text/css" href="{% static 'css/foundation.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/normalize.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/font-awesome.min.css' %}"-->
+</head>
+<body>
+	<div id="head">
+		<p>
+			¡¡¡¡BIENVENIDOS!!!!!
+		</p>
+
+	</div> 
+	<div id="izq">  
+		<img src="{% static "img/gatito.jpg" %}">
+	</div>
+	<div id="menu">
+		
+	</div>
+	<div id="central">
+		<h1>MIS DATOS</h1>
+		{% for x in misdatos %}
+		<p>{{x.nombre}}</p>
+		<p>{{x.email}}</p>
+		<p>{{x.skill}}</p>
+		<p>{{x.telefono}}</p>
+		<p>{{x.twitter}}</p>
+		<p>{{x.facebook}}</p>
+		{%endfor %}	
+	</div>
+	<!--div class="container">
+	</div-->
+</body>
+</html>

@@ -1,0 +1,40 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+body{
+	background-color: #FFF;
+}
+
+
+#central{
+	background:;
+	border: 1px solid #000;
+	margin: 10px;
+	width: 1500px;
+	height: 350px;
+	text-align: center;
+	float:right;
+	font-size: 30px;
+}
+
+#head{
+	background: #CA1111;
+	border: 1px solid #000;
+	margin: 10px;
+	height: 100px;
+	text-align: center;
+	font-size: 50px;
+	font-family: Comic Sans Ms;
+	color: #fff;
+}
+
+#izq{
+	background: ;
+	border: 1px solid #000;
+	margin: 10px;
+	width: 370px;
+	height: 350px;
+	text-align: center;
+	float:left; 
+}
